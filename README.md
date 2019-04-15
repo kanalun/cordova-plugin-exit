@@ -6,7 +6,7 @@
 Allows to exit from Cordova app programmatically.
 
 ## Platforms
-
+cccccccccccccccccccc
 - Android
 - iOS
 - Windows Phone (not tested)
