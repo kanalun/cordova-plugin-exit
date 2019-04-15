@@ -8,7 +8,7 @@ import org.apache.cordova.PluginResult;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
+import android.widget.Toast;
 import android.app.Activity;
 
 public class Exit extends CordovaPlugin {
@@ -18,10 +18,11 @@ public class Exit extends CordovaPlugin {
         /*
          * Finishes the activity provided by CordovaInterface.
          */
-
+		Activity activity = this.cordova.getActivity();
+		Toast.makeText(activity.getApplicationContext(), "This is a Toast", Toast.LENGTH_SHORT).show();
         if (action.equals("exit")) {
             try {
-                Activity activity = this.cordova.getActivity();
+               
                 activity.finish();
                 callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, 0));
             } catch (Exception e) {
