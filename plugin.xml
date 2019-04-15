@@ -8,8 +8,8 @@
   <description>Cordova plugin for exiting the app programmatically for Android, iOS and WP</description>
   <license>MIT</license>
   <keywords>cordova,terminate,exit</keywords>
-  <repo>https://github.com/cakuki/cordova-plugin-exit.git</repo>
-  <issue>https://github.com/cakuki/cordova-plugin-exit/issues</issue>
+  <repo>https://github.com/kanalun/cordova-plugin-exit.git</repo>
+  <issue>https://github.com/kanalun/cordova-plugin-exit/issues</issue>
 
   <js-module src="www/exit.js" name="exit">
     <clobbers target="cordova.plugins.exit" />
